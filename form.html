@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="Mytube" 
+        content="videos about things i like.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+  <title>"My first web page built to display many videos from the web"</title>
+  </head>
+<body class="formback full center">
+<header>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./pages/collection1.html">Technology</a>
+    <a href="./pages/collection2.html">Aviation</a>
+    <a href="./pages/collection3.html">Physics</a>
+    <a href="./form.html">New Video</a>
+  </nav>
+  <hr>
+</header>
+<div class="center"> 
+  <h1 class="title">Add new Video</h1> <br>
+  <div class="inputborder group center wider">
+    <label class="input_title" for="title">Video Title</label><br>
+    <input 
+      class="input_style wide center"
+      id="title" 
+      name="title"
+      type="text">
+  </div><br><br>
+  <div class="inputborder group center">
+    <label class="input_title" for="description">Description</label><br>
+    <textarea
+      class="input_style"
+      id="description"
+      name="description"
+      cols="50"
+      rows="10">
+    </textarea>
+  </div><br><br>
+  <div class="inputborder group center">
+    <label class="input_title" for="videofile">Video</label><br>
+    <input
+      class="input_style curve_border medium"
+      id="videofile"
+      name="videofile"
+      type="file"><br><br>
+    <label class="input_title" for="category">Category</label><br>  
+    <select 
+        class="input_style medium" 
+        name="collection" 
+        id="category">
+      <option value="technology">Technology</option>
+      <option value="aviation">Aviation</option>
+      <option value="physics">Physics</option>
+      <option value="new collection">New collection</option>
+    </select><br>
+  </div><br><br>
+  <div class="inputborder group center">  
+    <input 
+      class="input_style"
+      id="public"
+      name="private"
+      type="radio"
+      value="public">
+    <label class="input_title" for="public">
+      Public
+    </label>
+  
+    <input 
+      id="private"
+      name="private"
+      type="radio"
+      value="private">
+    <label class="input_title" for="private">
+      Private
+    </label>
+  </div><br><br>
+  <button class="inputborder group center sofia large darkgreen"
+    class="input_title"
+    type="submit" 
+    value="submit">Upload Video
+  </button><br><br>
+</div>
+  <hr>
+  <footer>
+    &copy; "Copyright"
+  </footer>
+</body>
+</html>

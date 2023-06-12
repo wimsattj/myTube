@@ -1,0 +1,203 @@
+nav{
+  background-image:linear-gradient(to right, #021f9f,#0f8d63,rgb(146, 148, 41));
+  padding:15px;
+  border-radius:10px;
+  font-size:25px;
+}
+footer{
+  color:#000;
+  font-weight:bolder;
+  text-shadow:0px 0px 10px #fff, 0px 0px 5px #fff, 0px 0px 20px #fff, 0px 0px 30px #fff;
+  padding:20px;
+  background-image:linear-gradient(to right,rgb(151, 72, 72),rgb(43, 255, 195));
+  border-radius:20px;
+}
+footer:hover{
+  font-size:xx-large;
+  padding:13px;
+}
+a{
+  text-decoration:none;
+  font-weight:bolder;
+  color:rgb(0, 0, 0);
+  text-shadow:0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 30px #fff;
+  transition:4s;
+}
+a:hover{
+  border-radius:10px;
+  background-image:linear-gradient(red,yellow);
+  z-index:2;
+  position:relative;
+}
+h2{
+  border-radius:5px;
+  text-align: center;
+  text-shadow:0px 0px 10px #000;
+  color:#fff;
+  padding:10px;
+  padding-left:2rem;
+  background-image:linear-gradient(rgb(250, 228, 28),#468)
+}
+.extraline{
+  font-size:20px;
+  height:20px;
+  visibility:hidden;
+}
+.full{
+  width:100%;
+}
+td{
+
+  background-color:#000;
+  border-top-left-radius:60px;
+  border-bottom-right-radius: 60px;
+  width:33%;
+  font-weight:bolder;
+  font-size:35px;
+  text-align:center;
+  color:#867437;
+}
+iframe{
+  border-radius:100px;
+  border-width:10px;
+  border-style:none;
+}
+.title{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#000;
+  border-top-left-radius:60px;
+  border-bottom-right-radius: 60px;
+  color:#867437;
+}
+select{
+  background-color:#867437;
+  color:#fff;
+}
+.input_title{
+  height:30px;
+  text-align:center;
+  justify-content: center;
+  position:relative;
+  top:50%;
+  border-radius: 15px;
+  border-color:yellow;
+  font-size:35px;
+  text-shadow:0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 20px #fff;
+}
+.inputborder{
+  width:fit-content;
+  border-width:2%;
+  border-style:ridge;
+  border-color:#DFA120;
+  border-radius: 15px;
+}
+.wide{
+  width:500px;
+}
+.wider{
+  width:600px;
+}
+.input_style{
+  padding:10px;
+  border-width:5px;
+  border-radius:10px;
+  border-color:yellow;
+  border-radius:10px;
+  background-image:linear-gradient(to right, blue, green, rgb(90, 90, 2));
+  color:white;
+
+}
+.center{
+  vertical-align: middle;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.group{
+  padding:10px;
+}
+.darkgreen{
+  color:#0f8d63;
+  background-color: #c4bea8;
+}
+.large{
+  font-size:xx-large;
+  font-weight:bolder;
+}
+.medium{
+  font-size:large;
+  font-weight:bolder;
+}
+.sofia{
+  font-family: 'Sofia', cursive;
+}
+.digitalfont{
+  font-family: 'Orbitron', sans-serif;
+}
+.solarfont{
+  font-family: 'Space Mono', monospace;
+}
+.oldback{
+  font-size:20px;
+  color:#3C599B;
+  text-shadow:0px 0px 10px #fff, 0px 0px 5px #fff, 0px 0px 20px #fff, 0px 0px 30px #fff;
+  font-weight:bolder;
+  background-image:url("https://static8.depositphotos.com/1008469/981/i/450/depositphotos_9811328-stock-photo-abstract-wall-brick-cracked-paint.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+.chipback{
+  font-size:20px;
+  color:#fff;
+  text-shadow:0px 0px 10px #000, 0px 0px 5px #000, 0px 0px 20px #000, 0px 0px 30px #000;
+  font-weight:bolder;
+  background-image:url("https://www.pveducation.org/sites/default/files/PVCDROM/PN-Junction/Images/BOND-SI.GIF");
+  background-repeat:repeat;
+  background-position:center;
+}
+.solarback{
+  font-size:20px;
+  color:#DFA120;
+  text-shadow:0px 0px 10px #000, 0px 0px 5px #000, 0px 0px 20px #000, 0px 0px 30px #000;
+  font-weight:bolder;
+  background-image:url("https://img.freepik.com/premium-vector/solar-battery-panel-texture-modern-alternative-eco-energy-concept-pattern_168129-794.jpg");
+  background-repeat:repeat;
+  background-position:center;
+}
+.techback{
+  background-image:url("https://images.unsplash.com/photo-1524169220946-12efd782aab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat:repeat;
+  background-position:center;
+}
+.aviationback{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/3f/P-51_Mustang_edit1.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.physicsback{
+  background-image:url("https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148408853.jpg?w=1380&t=st=1676678982~exp=1676679582~hmac=738af2a88a5b0a282d19fb401025a376cd2d0f424bafe62dccfda6d709be0082");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.introback{
+  background-image:url("https://i.pcmag.com/imagery/lineups/00fb8lInMuMIhHIqa8ni8RE-1.fit_lim.size_1600x900.v1569492951.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.formback{
+  background-image:url("https://img5.goodfon.com/wallpaper/nbig/5/f9/tsvet-forma-fon-208.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.curve_border{
+  border-radius: 15px;
+}
